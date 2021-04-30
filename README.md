@@ -7,7 +7,8 @@ T-Dream, a texture transfer method which uses Google DeepDream.
 - CUDA
 
 # Setup
-To setup, clone this repository. Then, pip install any required packages. 
+To setup, clone this repository. Then, pip install any required packages. This can be done with the following command:
+```python3.7 -m pip install shutil neural-dream opencv-python subprocess```
 Next, make sure you have the MATLAB Python api setup, https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html.
 Then, navigate to the deep-dream folder and run 
 ```python3.7 main.py ${NAME}```
